@@ -1,0 +1,6 @@
+// bulma. TODO: Order matters, but shouldn't..!? https://bulma.io/documentation/customize/concepts/
+@import "bulma_customization";
+@import "bulma/bulma";
+
+//add custom (global) styles here:
+@import "custom.scss";
