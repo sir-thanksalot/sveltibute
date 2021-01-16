@@ -25,7 +25,7 @@
     <li>How to overwrite variables from Bulma (PINK!)</li>
   </ul>
 
-  <p class="mb-3">
+  <p>
     Oh, and here is a button for your enjoyment (It preserves the click count
     after site changes, how cool is this?!):
   </p>
