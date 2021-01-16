@@ -1,10 +1,6 @@
-_Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)_
+# sveltibute
 
----
-
-# svelte app
-
-This is based on the project template for [Svelte](https://github.com/sveltejs/template), setup with a few extras:
+This is based on the project template for [Svelte](https://github.com/sveltejs/template), but with a few extras:
 
 - [tinro](https://github.com/AlexxNB/tinro) for Routing
 - [Bulma](https://bulma.io/) as css framework
@@ -50,4 +46,4 @@ To create an optimised version of the app:
 npm run build
 ```
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com). (<= TODO: Change this)
