@@ -9,6 +9,7 @@ import alias from "@rollup/plugin-alias";
 const createPreprocessors = require("./svelte.config").createPreprocessors;
 
 const production = !process.env.ROLLUP_WATCH;
+const serveFiles = !process.env.JUST_WATCH && !production;
 
 function serve() {
   let server;
@@ -80,7 +81,7 @@ export default {
     }),
     // In dev mode, call `npm run start` once
     // the bundle has been generated
-    !production && serve(),
+    serveFiles && serve(),
 
     // Watch the `public` directory and refresh the
     // browser on changes when not in production

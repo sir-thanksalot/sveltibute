@@ -4,6 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "watch": "rollup -c -w --environment JUST_WATCH",
     "start": "sirv public --single",
     "validate": "svelte-check"
   },
