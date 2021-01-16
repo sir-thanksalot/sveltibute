@@ -11,9 +11,6 @@ function createPreprocessors() {
     scss: {
       prependData: `@import 'src/styles/_shared';`,
     },
-    postcss: {
-      plugins: [require("autoprefixer")()],
-    },
   });
 }
 
