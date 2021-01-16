@@ -1,5 +1,5 @@
 <script>
-  import Counter from "../components/Counter.svelte";
+  import Counter from "components/Counter.svelte";
 </script>
 
 <section class="section container content">
@@ -31,6 +31,3 @@
   </p>
   <Counter />
 </section>
-
-<style>
-</style>

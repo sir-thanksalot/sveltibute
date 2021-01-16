@@ -3,5 +3,12 @@
 </script>
 
 <button class="button is-primary" on:click={() => $clicks++}
-  >Clicked: {$clicks}</button
+  >Clicks: {$clicks}</button
 >
+
+<!-- just to add some style -->
+<style>
+  button {
+    font-weight: bold;
+  }
+</style>

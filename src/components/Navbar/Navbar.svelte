@@ -1,5 +1,6 @@
 <script>
-  import { isActive, toggleActive } from "./navbar";
+  import Counter from "components/Counter.svelte";
+  import { isActive, toggleActive } from "store/navbar";
 
   import NavbarLink from "./NavbarLink.svelte";
 </script>
@@ -11,7 +12,7 @@
 >
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item has-text-weight-bold" href="/">SveTiBuTe</a>
+      <a class="navbar-item has-text-weight-bold" href="/">SvelTiBuTe</a>
 
       <span
         class:is-active={$isActive}
@@ -32,7 +33,7 @@
       </div>
 
       <div class="navbar-end">
-        <!-- navbar items -->
+        <div class="navbar-item"><Counter /></div>
       </div>
     </div>
   </div>

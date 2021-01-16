@@ -9,7 +9,7 @@ function createPreprocessors() {
       style: "scss",
     },
     scss: {
-      prependData: `@import 'src/styles/_shared';`,
+      prependData: `@import '${__dirname}/src/styles/shared';`,
     },
   });
 }

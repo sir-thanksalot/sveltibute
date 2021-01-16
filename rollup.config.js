@@ -73,12 +73,13 @@ export default {
     alias({
       resolve: [".js", ".ts", ".svelte"],
       entries: [
-        { find: "components", replacement: "./src/components" },
-        { find: "routes", replacement: "./src/routes" },
-        { find: "store", replacement: "./src/store" },
-        { find: "src", replacement: "./src" },
+        { find: "components", replacement: `${__dirname}/src/components` },
+        { find: "routes", replacement: `${__dirname}/src/routes` },
+        { find: "store", replacement: `${__dirname}/src/store` },
+        { find: "src", replacement: `${__dirname}/src` },
       ],
     }),
+
     // In dev mode, call `npm run start` once
     // the bundle has been generated
     serveFiles && serve(),

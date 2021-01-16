@@ -1,9 +1,9 @@
 <script>
   import { Route } from "tinro";
-  import Navbar from "./components/Navbar/Navbar.svelte";
-  import Home from "./routes/Home.svelte";
-  import Props from "./routes/Props.svelte";
-  import YAP from "./routes/YAP.svelte";
+  import Navbar from "components/Navbar/Navbar.svelte";
+  import Home from "routes/Home.svelte";
+  import Props from "routes/Props.svelte";
+  import YAP from "routes/YAP.svelte";
 
   export let message;
 </script>

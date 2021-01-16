@@ -1,6 +1,6 @@
 <script>
+  import { isActive, toggleActive } from "src/store/navbar";
   import { active } from "tinro";
-  import { isActive, toggleActive } from "./navbar";
 
   export let path: string;
 </script>
